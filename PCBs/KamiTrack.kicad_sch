@@ -4,6 +4,15 @@
 
   (paper "A4")
 
+  (title_block
+    (title "KamiTrack-SlimeVR-PCB")
+    (date "2022-04-07")
+    (rev "v0.4")
+    (company "github.com/Kamilake/KamiTrack-SlimeVR-PCB")
+    (comment 1 "Licensed under CERN-OHL-P v2 or later")
+    (comment 2 "Compatible with github.com/SlimeVR/SlimeVR-Tracker-ESP")
+  )
+
   (lib_symbols
     (symbol "Connector:Conn_01x02_Female" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 2.54 0)
@@ -1581,7 +1590,6 @@
     )
   )
 
-
   (junction (at 50.8 158.75) (diameter 0) (color 0 0 0 0)
     (uuid 000b46d6-b833-4804-8f56-56d539f76d09)
   )
@@ -1908,6 +1916,10 @@
   (wire (pts (xy 196.85 55.88) (xy 196.85 53.34))
     (stroke (width 0) (type default) (color 0 0 0 0))
     (uuid 0d993e48-cea3-4104-9c5a-d8f97b64a3ac)
+  )
+  (wire (pts (xy 95.25 121.92) (xy 104.14 121.92))
+    (stroke (width 0) (type default) (color 0 0 0 0))
+    (uuid 0eee0649-8aa8-4a81-b9a8-83c84527e21a)
   )
   (wire (pts (xy 199.39 53.34) (xy 196.85 53.34))
     (stroke (width 0) (type default) (color 0 0 0 0))
@@ -3472,10 +3484,10 @@
       (effects (font (size 1.27 1.27)) hide)
     )
   )
-  (global_label "ADC" (shape input) (at 104.14 121.92 180) (fields_autoplaced)
+  (global_label "ADC" (shape input) (at 95.25 121.92 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid f9b1563b-384a-447c-9f47-736504e995c8)
-    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at 0 0 0)
+    (property "Intersheet References" "${INTERSHEET_REFS}" (id 0) (at -8.89 0 0)
       (effects (font (size 1.27 1.27)) hide)
     )
   )
