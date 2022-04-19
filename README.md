@@ -14,6 +14,7 @@ M.2 SSD size ultra-small form factor, Smallest size that can fit 18650!
 ![KakaoTalk_20220223_222725417](https://user-images.githubusercontent.com/15166740/161364617-89621510-34f0-4919-be8a-b33350d9140c.jpg)
 ![image](https://user-images.githubusercontent.com/15166740/161454675-0740d4ca-4264-4b6e-8f56-9f29aa31817a.png)
 ![image](https://user-images.githubusercontent.com/15166740/161454916-a54c4693-e9c1-454c-85dc-dd0a7822720e.png)
+![KakaoTalk_20220420_084354356_01](https://user-images.githubusercontent.com/15166740/164119670-261c3e02-e0fe-4508-9886-2ccc19d5d1fd.jpg)
 
 
 
