@@ -21,7 +21,7 @@ kikit fab jlcpcb ^
 
 ## Only Fab
 
-### Using internal MPU-6050 and bottom Lipo
+### Using internal MPU-6050+QMC5883L and bottom Lipo
 ```batch
 kikit fab jlcpcb ^
     --assembly ^
