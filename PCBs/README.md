@@ -28,7 +28,7 @@ kikit fab jlcpcb ^
     --schematic ./KamiTrack.kicad_sch ^
     --ignore BT1,J3,J4,J5 ^
     --no-drc ./KamiTrack.kicad_pcb ^
-    "./Gerber/Using internal MPU-6050"
+    "./Gerber/Using internal MPU-6050+QMC5883L and bottom Lipo"
 ```
 ### Using internal MPU-6050+QMC5883L and Left side Lipo
 ```batch
@@ -37,7 +37,7 @@ kikit fab jlcpcb ^
     --schematic ./KamiTrack.kicad_sch ^
     --ignore BT1,J1,J4,J5 ^
     --no-drc ./KamiTrack.kicad_pcb ^
-    "./Gerber/Using internal MPU-6050"
+    "./Gerber/Using internal MPU-6050+QMC5883L and Left side Lipo"
 ```
 
 ### Using GY-521 and bottom Lipo
@@ -47,7 +47,7 @@ kikit fab jlcpcb ^
     --schematic ./KamiTrack.kicad_sch ^
     --ignore U8,U3,R20,R21,C16,C12,C11,R12,R11,BT1,J3,J4,J5 ^
     --no-drc ./KamiTrack.kicad_pcb ^
-    "./Gerber/Using GY-521"
+    "./Gerber/Using GY-521 and bottom Lipo"
 
 ```
 
@@ -58,6 +58,6 @@ kikit fab jlcpcb ^
     --schematic ./KamiTrack.kicad_sch ^
     --ignore U8,U3,R20,R21,C16,C12,C11,R12,R11,J1,J3,J4,J5 ^
     --no-drc ./KamiTrack.kicad_pcb ^
-    "./Gerber/Using GY-521"
+    "./Gerber/Using GY-521 and 18650"
 
 ```
