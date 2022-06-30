@@ -1,4 +1,4 @@
-# Custom assembly using Kikit
+# Custom assembly using Kikit JLC
 
 
 ## Panalize and Fab
