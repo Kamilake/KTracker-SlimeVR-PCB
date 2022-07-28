@@ -1,5 +1,10 @@
 # Custom assembly using Kikit JLC
 
+Due to JLCPCB's new assembly policy, soldering on the bottom side or using a non-black PCB will incur additional charges.   
+Bottom side soldering is not possible if the "Economic" assembly option is selected.   
+   
+   
+As the bottom side soldering is only for the connector, manual assembly is recommended.   
 
 ## Panalize and Fab
 ```batch
