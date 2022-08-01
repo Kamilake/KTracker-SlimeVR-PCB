@@ -1,4 +1,4 @@
-# KamiTrack-SlimeVR-PCB
+# KTracker-SlimeVR-PCB
 ESP8266 Tracker for SlimeVR
 
 Full SMT PCB operating in MPU-6050 + QMC5883L 9DoF mode (or any breakout board compatible with GY-521)
