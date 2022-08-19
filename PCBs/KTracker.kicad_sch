@@ -3970,10 +3970,30 @@
     (pin "1" (uuid 8a2151bd-e6f0-4555-b50d-56463bd99e3c))
   )
 
+  (symbol (lib_id "Device:C") (at 91.44 41.91 0) (unit 1)
+    (in_bom yes) (on_board yes)
+    (uuid 5401772f-eac2-49f8-aab3-944b0ada781c)
+    (property "Reference" "C10" (id 0) (at 94.361 40.7416 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "10uF" (id 1) (at 94.361 43.053 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "Capacitor_SMD:C_0402_1005Metric" (id 2) (at 92.4052 45.72 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (id 3) (at 91.44 41.91 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "LCSC" "C15525" (id 4) (at 91.44 41.91 0))
+    (pin "1" (uuid e73d7e93-93ec-4163-967a-56f522960960))
+    (pin "2" (uuid b79abb32-6bea-4414-b14e-b632b337716d))
+  )
+
   (symbol (lib_id "Connector:TestPoint") (at 110.49 163.83 270) (unit 1)
     (in_bom yes) (on_board yes)
     (uuid 7474922a-d357-4fbb-9452-85c134f4f49e)
-    (property "Reference" "TP?" (id 0) (at 115.189 162.9215 90)
+    (property "Reference" "TP2" (id 0) (at 115.189 162.9215 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "Batt-" (id 1) (at 107.95 162.56 90)
@@ -4134,6 +4154,9 @@
     (path "/00000000-0000-0000-0000-00006197fa34"
       (reference "C7") (unit 1) (value "0.1uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
+    (path "/5401772f-eac2-49f8-aab3-944b0ada781c"
+      (reference "C10") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
+    )
     (path "/00000000-0000-0000-0000-0000620f28e9"
       (reference "C13") (unit 1) (value "10uF") (footprint "Capacitor_SMD:C_0402_1005Metric")
     )
@@ -4228,7 +4251,7 @@
       (reference "TP1") (unit 1) (value "Batt+") (footprint "Connector_Pin:Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork")
     )
     (path "/7474922a-d357-4fbb-9452-85c134f4f49e"
-      (reference "TP?") (unit 1) (value "Batt-") (footprint "Connector_Pin:Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork")
+      (reference "TP2") (unit 1) (value "Batt-") (footprint "Connector_Pin:Pin_D0.9mm_L10.0mm_W2.4mm_FlatFork")
     )
     (path "/00000000-0000-0000-0000-000062335044"
       (reference "U1") (unit 1) (value "ME6211C") (footprint "Package_TO_SOT_SMD:SOT-23-5")
