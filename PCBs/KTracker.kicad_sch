@@ -2520,7 +2520,7 @@
     (effects (font (size 1.27 1.27) (thickness 0.254) bold) (justify left bottom))
     (uuid 252f1275-081d-4d77-8bd5-3b9e6916ef42)
   )
-  (text "IMU / MPU-6050" (at 184.15 20.32 0)
+  (text "IMU / MPU-6500" (at 184.15 20.32 0)
     (effects (font (size 2.54 2.54) (thickness 0.508) bold) (justify left bottom))
     (uuid 501880c3-8633-456f-9add-0e8fa1932ba6)
   )
