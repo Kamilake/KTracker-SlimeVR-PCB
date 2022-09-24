@@ -5,3 +5,7 @@ PCBs/KTracker.kicad_prl
 PCBs/KTracker-backups
 PCBs/Gerber/
 PCBs/#auto_saved_files#
+AUX_PCBs/fp-lib-table
+AUX_PCBs/fp-info-cache
+AUX_PCBs/KTracker-cache.lib
+AUX_PCBs/KTracker_AUX-backups/*
