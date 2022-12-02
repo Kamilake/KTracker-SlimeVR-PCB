@@ -4150,7 +4150,7 @@
 
   (footprint "kamilib:sleepy300dpi" (layer "B.Cu")
     (tedit 0) (tstamp 461d1bbd-c55c-4c07-b8c9-742cb391666b)
-    (at 98.84 68.16 180)
+    (at 198.84 68.16 180)
     (attr through_hole)
     (fp_text reference "G***" (at 0 0) (layer "B.SilkS") hide
       (effects (font (size 1.524 1.524) (thickness 0.3)) (justify mirror))
