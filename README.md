@@ -1,3 +1,8 @@
+# Move to the [FineMotion!](https://github.com/Kamilake/FineMotion-Tracker)
+This repo is old and I created a new tracker. For non-maintenance purposes, go to:   
+https://github.com/Kamilake/FineMotion-Tracker
+
+
 # KTracker-SlimeVR-PCB
 ESP8266 Attitude Tracker for SlimeVR
 
